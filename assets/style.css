@@ -1,4 +1,4 @@
-.fa-car-side, .fa-shuttle-van {
+.fa-car-wash, .fa-shuttle-van {
     color: rgb(255, 145, 0);
 }
 
@@ -9,4 +9,12 @@
     max-height: 100vh;
     overflow: hidden;
     filter: brightness(0.7);    
+}
+
+.fa-check {
+    color: rgb(86, 216, 86);
+}
+
+.premiumCheck, .fa-stars {
+    color: rgb(253, 187, 19);
 }
