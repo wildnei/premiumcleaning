@@ -18,3 +18,13 @@
 .premiumCheck, .fa-stars {
     color: rgb(253, 187, 19);
 }
+
+.carBasic {
+    color: rgb(255, 210, 137);
+}
+
+
+#accordionFlushExample {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
