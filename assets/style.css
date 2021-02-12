@@ -1,3 +1,7 @@
+.fa-car-side, .fa-shuttle-van {
+    color: rgb(255, 145, 0);
+}
+
 
 #mainImg {
     object-fit: cover;
@@ -6,4 +10,3 @@
     overflow: hidden;
     filter: brightness(0.7);    
 }
-
