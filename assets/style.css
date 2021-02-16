@@ -1,7 +1,3 @@
-.fa-car-wash, .fa-shuttle-van {
-    color: rgb(255, 145, 0);
-}
-
 
 #mainImg {
     object-fit: cover;
@@ -11,26 +7,14 @@
     filter: brightness(0.7);    
 }
 
-.fa-check {
-    color: rgb(86, 216, 86);
-}
 
-.premiumCheck, .fa-stars {
+.fa-stars {
     color: rgb(253, 187, 19);
 }
 
-.carBasic {
-    color: rgb(255, 210, 137);
-}
 
 
-#accordionFlushExample {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
-
-.iconPremium {
-    
+.iconPremium {    
     width: 150px;
     height: auto;
 }
@@ -39,8 +23,19 @@
     color: black;
 }
 
-#accordionExample {
-   
+.accordion-button {
+    background-color: white;
+}
+
+.accordion-button:focus {
+    background-color: rgb(241, 186, 67);
+    border-color:rgb(255, 174, 0);
+    box-shadow: 0 0 0 0.25rem aliceblue;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgb(241, 186, 67);
 }
 
 .iconImg {
