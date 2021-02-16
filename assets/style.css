@@ -28,3 +28,22 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+.iconPremium {
+    
+    width: 150px;
+    height: auto;
+}
+
+.expandPremium {
+    color: black;
+}
+
+#accordionExample {
+   
+}
+
+.iconImg {
+    height: 32px;
+    margin-right: 10px;
+}

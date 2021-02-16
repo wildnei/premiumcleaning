@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215.198" height="250" viewBox="0 0 215.198 250">
+  <g id="car-shampoo" transform="translate(-23 -3)">
+    <g id="Group_85" data-name="Group 85">
+      <path id="Path_62" data-name="Path 62" d="M148,253H48a25.028,25.028,0,0,1-25-25V102.143a14.9,14.9,0,0,1,4.394-10.606L65.929,53h64.143l38.535,38.536A14.9,14.9,0,0,1,173,102.142V228A25.03,25.03,0,0,1,148,253ZM70.071,63,34.464,98.606A4.968,4.968,0,0,0,33,102.142V228a15.017,15.017,0,0,0,15,15H148a15.017,15.017,0,0,0,15-15V102.143a4.968,4.968,0,0,0-1.464-3.536L125.929,63Z"/>
+    </g>
+    <g id="Group_86" data-name="Group 86">
+      <path id="Path_63" data-name="Path 63" d="M128,43H68V18A15.017,15.017,0,0,1,83,3h30a15.017,15.017,0,0,1,15,15ZM78,33h40V18a5.006,5.006,0,0,0-5-5H83a5.006,5.006,0,0,0-5,5Z"/>
+    </g>
+    <g id="Group_87" data-name="Group 87">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="32.5" height="10" transform="translate(28 188)"/>
+    </g>
+    <g id="Group_88" data-name="Group 88">
+      <path id="Path_64" data-name="Path 64" d="M28,108v25H71.406a10,10,0,0,1,9.191,6.061L93,168l8.944,4.472A20,20,0,0,1,113,190.361V218h55V108Z" fill="#ffc44d"/>
+      <path id="Path_65" data-name="Path 65" d="M173,223H108V190.36a14.922,14.922,0,0,0-8.292-13.417l-10.582-5.29L76,141.03a4.994,4.994,0,0,0-4.6-3.03H23V103H173Zm-55-10h45V113H33v15H71.406a14.983,14.983,0,0,1,13.787,9.091l11.681,27.256L104.181,168A24.868,24.868,0,0,1,118,190.36Z"/>
+    </g>
+    <g id="Group_89" data-name="Group 89">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="10" cy="10" r="10" transform="translate(78 183)"/>
+    </g>
+    <g id="Group_90" data-name="Group 90">
+      <path id="Path_66" data-name="Path 66" d="M96.535,171.535l-7.07-7.07L100.929,153H118v10H105.071Z"/>
+    </g>
+    <g id="Group_91" data-name="Group 91">
+      <path id="Path_67" data-name="Path 67" d="M203,78.2,190.328,55.672,167.8,43l22.526-12.672L203,7.8l12.672,22.526L238.2,43,215.672,55.672ZM188.2,43l9.474,5.328L203,57.8l5.328-9.474L217.8,43l-9.474-5.328L203,28.2l-5.328,9.474Z"/>
+    </g>
+    <g id="Group_92" data-name="Group 92">
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="65" height="10" transform="translate(28 163)"/>
+    </g>
+    <g id="Group_93" data-name="Group 93">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="85" height="10" transform="translate(28 213)"/>
+    </g>
+  </g>
+</svg>

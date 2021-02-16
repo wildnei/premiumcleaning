@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="229.743" viewBox="0 0 240 229.743">
+  <g id="car-wash" transform="translate(-8 -13.257)">
+    <g id="Group_102" data-name="Group 102">
+      <path id="Path_73" data-name="Path 73" d="M222,203H32V164.18a14.919,14.919,0,0,1,8.291-13.416L55.82,143H198.18l15.528,7.764A14.92,14.92,0,0,1,222,164.181ZM42,193H212V164.18a4.974,4.974,0,0,0-2.765-4.473L195.82,153H58.18l-13.417,6.708A4.974,4.974,0,0,0,42,164.18Z"/>
+    </g>
+    <g id="Group_103" data-name="Group 103">
+      <path id="Path_74" data-name="Path 74" d="M198.72,153H55.28l14.793-49.31A14.907,14.907,0,0,1,84.44,93h85.119a14.908,14.908,0,0,1,14.368,10.689Zm-130-10H185.28l-10.931-36.437a4.97,4.97,0,0,0-4.79-3.563H84.44a4.97,4.97,0,0,0-4.79,3.563Z"/>
+    </g>
+    <g id="Group_104" data-name="Group 104">
+      <path id="Path_75" data-name="Path 75" d="M63,243H53a15.017,15.017,0,0,1-15-15V213H78v15A15.017,15.017,0,0,1,63,243ZM48,223v5a5.006,5.006,0,0,0,5,5H63a5.006,5.006,0,0,0,5-5v-5Z"/>
+    </g>
+    <g id="Group_105" data-name="Group 105">
+      <path id="Path_76" data-name="Path 76" d="M203,243H193a15.017,15.017,0,0,1-15-15V213h40v15A15.017,15.017,0,0,1,203,243Zm-15-20v5a5.006,5.006,0,0,0,5,5h10a5.006,5.006,0,0,0,5-5v-5Z"/>
+    </g>
+    <g id="Group_106" data-name="Group 106">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="10" cy="10" r="10" transform="translate(57 163)"/>
+    </g>
+    <g id="Group_107" data-name="Group 107">
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="10" cy="10" r="10" transform="translate(177 163)"/>
+    </g>
+    <g id="Group_108" data-name="Group 108">
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="200" height="10" transform="translate(28 193)"/>
+    </g>
+    <g id="Group_109" data-name="Group 109">
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="200" height="10" transform="translate(28 213)"/>
+    </g>
+    <g id="Group_110" data-name="Group 110">
+      <path id="Path_77" data-name="Path 77" d="M169.385,203H84.615l14-35h56.771Zm-70-10h55.229l-6-15H105.385Z"/>
+    </g>
+    <g id="Group_111" data-name="Group 111">
+      <path id="Path_78" data-name="Path 78" d="M52.528,150.236,48.91,143H32V133H55.09l6.382,12.764Z"/>
+    </g>
+    <g id="Group_112" data-name="Group 112">
+      <path id="Path_79" data-name="Path 79" d="M201.472,150.236l-8.944-4.472L198.91,133H222v10H205.09Z"/>
+    </g>
+    <g id="Group_113" data-name="Group 113">
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="35" height="20" transform="translate(169.75 53) rotate(180)" fill="#ffc44d"/>
+      <path id="Path_80" data-name="Path 80" d="M174.75,58h-45V28h45Zm-35-10h25V38h-25Z"/>
+    </g>
+    <g id="Group_114" data-name="Group 114">
+      <rect id="Rectangle_41" data-name="Rectangle 41" width="40" height="30" transform="translate(134.75 58) rotate(180)" fill="#ffc44d"/>
+      <path id="Path_81" data-name="Path 81" d="M139.75,63h-50V23h50Zm-40-10h30V33h-30Z"/>
+    </g>
+    <g id="Group_115" data-name="Group 115">
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="25" height="10" transform="translate(223 38)"/>
+    </g>
+    <g id="Group_116" data-name="Group 116">
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="10" height="20.616" transform="translate(191.778 57.857) rotate(-75.965)"/>
+    </g>
+    <g id="Group_117" data-name="Group 117">
+      <rect id="Rectangle_44" data-name="Rectangle 44" width="20.616" height="10" transform="matrix(0.97, -0.243, 0.243, 0.97, 191.782, 28.146)"/>
+    </g>
+    <g id="Group_118" data-name="Group 118">
+      <rect id="Rectangle_45" data-name="Rectangle 45" width="10" height="15.811" transform="matrix(0.316, -0.949, 0.949, 0.316, 221.413, 67.738)"/>
+    </g>
+    <g id="Group_119" data-name="Group 119">
+      <rect id="Rectangle_46" data-name="Rectangle 46" width="15.811" height="10" transform="matrix(0.949, -0.316, 0.316, 0.949, 221.42, 18.256)"/>
+    </g>
+    <g id="Group_120" data-name="Group 120">
+      <path id="Path_82" data-name="Path 82" d="M38,98H8V88H38A15.017,15.017,0,0,0,53,73V63A25.028,25.028,0,0,1,78,38H93V48H78A15.017,15.017,0,0,0,63,63V73A25.028,25.028,0,0,1,38,98Z"/>
+    </g>
+  </g>
+</svg>

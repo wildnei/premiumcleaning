@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215.199" height="250" viewBox="0 0 215.199 250">
+  <g id="glass-cleaner" transform="translate(-23 -3)">
+    <g id="Group_217" data-name="Group 217">
+      <path id="Path_156" data-name="Path 156" d="M158,253H38a15.017,15.017,0,0,1-15-15V126.284a24.84,24.84,0,0,1,7.322-17.678L53,85.929V73h50V95.1l47.326,27.043A45.1,45.1,0,0,1,173,161.213V238A15.017,15.017,0,0,1,158,253ZM63,83v7.071L37.394,115.677A14.9,14.9,0,0,0,33,126.283V238a5.006,5.006,0,0,0,5,5H158a5.006,5.006,0,0,0,5-5V161.213a35.075,35.075,0,0,0-17.635-30.388L93,100.9V83Z"/>
+    </g>
+    <g id="Group_218" data-name="Group 218">
+      <path id="Path_157" data-name="Path 157" d="M38,38H138V8H48L38,23Z" fill="#ffc44d"/>
+      <path id="Path_158" data-name="Path 158" d="M143,43H33V21.486L45.324,3H143ZM43,33h90V13H50.676L43,24.514Z"/>
+    </g>
+    <g id="Group_219" data-name="Group 219">
+      <rect id="Rectangle_82" data-name="Rectangle 82" width="10" height="36.056" transform="translate(113.846 40.775) rotate(-33.688)"/>
+    </g>
+    <g id="Group_220" data-name="Group 220">
+      <path id="Path_159" data-name="Path 159" d="M108,63H48V33h60ZM58,53H98V43H58Z"/>
+    </g>
+    <g id="Group_221" data-name="Group 221">
+      <path id="Path_160" data-name="Path 160" d="M167.608,223H23V183H94.275ZM33,213h95.392L91.725,193H33Z"/>
+    </g>
+    <g id="Group_222" data-name="Group 222">
+      <path id="Path_161" data-name="Path 161" d="M99.546,193H23V128H70.362a15.033,15.033,0,0,1,14.472,11.053ZM33,183H86.454L75.186,141.684A5.012,5.012,0,0,0,70.362,138H33Z"/>
+    </g>
+    <g id="Group_223" data-name="Group 223">
+      <path id="Path_162" data-name="Path 162" d="M96.536,191.536l-7.072-7.072L100.929,173H123v10H105.071Z"/>
+    </g>
+    <g id="Group_224" data-name="Group 224">
+      <path id="Path_163" data-name="Path 163" d="M38,248H158a10,10,0,0,0,10-10V218H28v20A10,10,0,0,0,38,248Z" fill="#ffc44d"/>
+      <path id="Path_164" data-name="Path 164" d="M158,253H38a15.017,15.017,0,0,1-15-15V213H173v25A15.017,15.017,0,0,1,158,253ZM33,223v15a5.006,5.006,0,0,0,5,5H158a5.006,5.006,0,0,0,5-5V223Z"/>
+    </g>
+    <g id="Group_225" data-name="Group 225">
+      <path id="Path_165" data-name="Path 165" d="M203,120.7,190.329,98.172,167.8,85.5l22.527-12.671L203,50.3l12.671,22.527L238.2,85.5,215.672,98.171ZM188.2,85.5l9.473,5.329L203,100.3l5.329-9.473L217.8,85.5l-9.473-5.329L203,70.7l-5.329,9.473Z"/>
+    </g>
+  </g>
+</svg>
