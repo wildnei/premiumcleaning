@@ -12,8 +12,6 @@
     color: rgb(253, 187, 19);
 }
 
-
-
 .iconPremium {    
     width: 150px;
     height: auto;
@@ -23,8 +21,21 @@
     color: black;
 }
 
+.accordion {
+    max-width: 1000px;
+}
+
 .accordion-button {
     background-color: white;
+}
+
+/* .detailText {
+    padding: 10px 0 10px 0
+} */
+
+.h2 {
+    font-size: 2.0rem;
+    font-weight: 500!important;
 }
 
 .accordion-button:focus {
@@ -42,3 +53,28 @@
     height: 32px;
     margin-right: 10px;
 }
+
+.display-6 {
+    font-size: 1.5rem
+}
+
+.display-4, .display-3 {
+    font-size: 2.0rem;
+    font-weight: 500!important;
+}
+
+.basicCard {
+    background-image: linear-gradient(#c3d6db, #acbdcc);
+    color: white
+}
+
+.premiumCard {
+    background-image: linear-gradient(#757575, #444341);
+    color: white;
+}
+
+.detailCard {
+    background-image: linear-gradient(#FFB714, #f89735);
+    color: white
+}
+
