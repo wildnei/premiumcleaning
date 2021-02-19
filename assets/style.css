@@ -81,20 +81,36 @@
 
 /* instagram */
 
-#rudr_instafeed{
-  list-style:none  
-}
-#rudr_instafeed li{
-  float:left;
-  width:200px;
-  height:200px;
-  margin:10px
-}
-#rudr_instafeed li img{
-  max-width:100%;
-  max-height:100%;
+
+/* #instagramPhoto1 {
+    float:left;
+    width:30vw;
+    height:auto;
+    margin:10px
 }
 
+#instagramPhoto2 {
+    float:left;
+    width:30vw;
+    height:auto;
+    margin:10px
+}
+#instagramPhoto3 {
+    float:left;
+    width:30vw;
+    height:auto;
+    margin:10px
+} */
+
+.linkInstagram {
+    color: black;
+}
+
+
+.photos1 {
+    width: 100px;
+    height: 100px;
+}
 
 @media only screen and (max-width: 768px) {
 .display-6 {

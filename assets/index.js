@@ -4,47 +4,65 @@ const animator = new Animator();
 $(document.body).ready(function () {
 
     animator.hideAndFade($(`#initialText`))
-    animator.hideAndSlide($("#section1"));
-    animator.hideAndSlide($("#section2"));
-    animator.hideAndSlide($("#section3"));
+    // animator.hideAndSlide($("#section1"));
+    // animator.hideAndSlide($("#section2"));
+    // animator.hideAndSlide($("#section3"));
 })
 
 function Animator() {
-    
+
     this.hideAndFade = function (selector) {
-        return $(selector).hide().fadeIn(1000);
+        return $(selector).hide().fadeIn(2000);
     }
     this.hideAndSlide = function (selector) {
         return $(selector).hide().slideDown(2500);
     }
- }
+}
+
+
+$.getJSON("https://v1.nocodeapi.com/wildneisuane/instagram/eSVqFcdQmuYWXiPj?limit=9", function (data) {
+    console.log(data);
+
+    var image = data.data[0].media_url
+    var image1 = data.data[1].media_url
+    var image2 = data.data[2].media_url
+    var image3 = data.data[3].media_url
+    var image4 = data.data[4].media_url
+    var image5 = data.data[5].media_url
+    var image6 = data.data[6].media_url
+    var image7 = data.data[7].media_url
+    var image8 = data.data[8].media_url
+
+    console.log(image, image1,image2);
+
+    $('.photo1').append('<img class="img-fluid instagramPhoto" href="https://www.instagram.com/premiumcleaning_usa/" src="' + image + '">');
+    $('.photo2').append('<img class="img-fluid instagramPhoto" src="' + image1 + '">');
+    $('.photo3').append('<img class="img-fluid instagramPhoto" src="' + image2 + '">');
+    $('.photo4').append('<img class="img-fluid instagramPhoto" src="' + image3 + '">');
+    $('.photo5').append('<img class="img-fluid instagramPhoto" src="' + image4 + '">');
+    $('.photo6').append('<img class="img-fluid instagramPhoto" src="' + image5 + '">');
+    $('.photo7').append('<img class="img-fluid instagramPhoto" src="' + image6 + '">');
+    $('.photo8').append('<img class="img-fluid instagramPhoto" src="' + image7 + '">');
+    $('.photo9').append('<img class="img-fluid instagramPhoto" src="' + image8 + '">');
+
+    // for (x in data.data) {
+    //     $('ul').append('<li><img src="' + data.data[x].media_url + '"></li>');
+    //     $('ul').append('<p> @' + data.data[x].username + '<p/>');
+    // }
+})
 
 
 
 
 
-var token = 'IGQVJYZA2NPV25YeTVrTFlYZAzNubW12cVFrSWlza3RvVFo3YkVUU1MwU3NmYjF4RUdUQkpYeTVtSVE5N2NiMFU3ME8tcVBtZAXZAzS1FBamE1TnFxMTNwRXRLbk1uVnVNc2duNVF2bktISlRyRzRIY2p2NwZDZD',
-    userId = 935944573831494, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
-    num_photos = 4; // how much photos do you want to get
 
-$.ajax({
-    url: 'https://api.instagram.com/v1/users/' + userId + '/media/recent', // or /users/self/media/recent for Sandbox
-    dataType: 'jsonp',
-    type: 'GET',
-    data: { access_token: token, count: num_photos },
-    success: function (data) {
-        console.log(data);
-        for (x in data.data) {
-            $('ul').append('<li><img src="' + data.data[x].images.low_resolution.url + '"></li>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
-            // data.data[x].images.thumbnail.url - URL of image 150х150
-            // data.data[x].images.standard_resolution.url - URL of image 612х612
-            // data.data[x].link - Instagram post URL 
-        }
-    },
-    error: function (data) {
-        console.log(data); // send the error notifications to console
-    }
-});
+
+
+
+
+
+
+
 
 // https://api.instagram.com/oauth/authorize
 //   ? client_id = 935944573831494
