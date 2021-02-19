@@ -81,24 +81,18 @@
 
 /* instagram */
 
-.instagram_profile {
-  /* CSS styles here */
+#rudr_instafeed{
+  list-style:none  
 }
-
-.instagram_profile_image {
-  /* CSS styles here */
+#rudr_instafeed li{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:10px
 }
-
-.instagram_username {
-  /* CSS styles here */
-}
-
-.instagram_biography {
-  /* CSS styles here */
-}
-
-.instagram_gallery {
-  /* CSS styles here */
+#rudr_instafeed li img{
+  max-width:100%;
+  max-height:100%;
 }
 
 
