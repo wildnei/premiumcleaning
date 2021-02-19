@@ -10,11 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/main.js">
     <script src="https://kit.fontawesome.com/9867b0c59a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./assets/index.js"></script>
     <title>Premium Cleaning</title>
 </head>
 
@@ -33,67 +33,75 @@
 
     <!--* Main Image -->
     <!-- <div class="container-fluid"> -->
-        <img id="mainImg" src="./img/car2.jpeg" alt="car-wash">
+    <img id="mainImg" src="./img/car2.jpeg" alt="car-wash">
     <!-- </div> -->
 
     <!--* Introduction -->
 
     <div class="container-md">
-        <div class="row mt-5 mb-5">
-            <div class="display-4 text-center">
-                Premium Car Wash services in any location!
+        <section id="initialText">
+            <div class="row mt-5 mb-5">
+                <div class="display-4 text-center">
+                    Premium Car Wash services in any location!
+                </div>
+                <p class="display-6 text-center mt-3 mb-2">
+                    You schedule and we will go to you!
+                </p>
             </div>
-            <p class="display-6 text-center mt-3 mb-2">
-                You schedule and we will go to you!
-            </p>
-        </div>
+        </section>
 
-
-
-        <div class="row d-flex p-2 justify-content-center">
-            <img src="./img/Premium.svg" alt="" class="iconPremium">
-            <h1 class="display-3 mt-3 text-center">Premium Wash</h1>
-            <p class="display-6 text-center">Our Premium wash offer the best options to keep a lasting shining inside and
-                outside of your vehicle</p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <p class="h4">See what's included</p>
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <p class="lead mb-1"><img src="./img/icons/car-wash.svg" class="iconImg" alt=""> Body Car
-                                Wash</p>
-                            <br>
-                            <p class="lead mb-1"><img src="./img/icons/tire-cleaning.svg" class="iconImg" alt=""> Tire
-                                Shining</p>
-                            <br>
-                            <p class="lead mb-1"><img src="./img/icons/glass-cleaner.svg" class="iconImg" alt=""> Panel
-                                Cleaning</p>
-                            <br>
-                            <p class="lead mb-1"><img src="./img/icons/vacuum-interior.svg" class="iconImg" alt="">
-                                Vacuum</p>
-                            <br>
-                            <p class="lead mb-1"><img src="./img/icons/interior-detailing.svg" class="iconImg" alt="">
-                                Interior Panel Detailer</p>
-                            <br>
-                            <p class="lead mb-1"><img src="./img/icons/hand-towel.svg" class="iconImg" alt=""> Plastic
-                                Restorer</p>
-                            <br>
-                            <p class="lead mb-1"><img src="./img/icons/exterior-detailing.svg" class="iconImg" alt="">
-                                Wax</p>
+        <section id="section1">
+            <div class="row d-flex p-2 justify-content-center">
+                <img src="./img/Premium.svg" alt="" class="iconPremium">
+                <h1 class="display-3 mt-3 text-center">Premium Wash</h1>
+                <p class="display-6 text-center">Our Premium wash offer the best options to keep a lasting shining
+                    inside and
+                    outside of your vehicle</p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <p class="h4">See what's included</p>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="lead mb-1"><img src="./img/icons/car-wash.svg" class="iconImg" alt=""> Body
+                                    Car
+                                    Wash</p>
+                                <br>
+                                <p class="lead mb-1"><img src="./img/icons/tire-cleaning.svg" class="iconImg" alt="">
+                                    Tire
+                                    Shining</p>
+                                <br>
+                                <p class="lead mb-1"><img src="./img/icons/glass-cleaner.svg" class="iconImg" alt="">
+                                    Panel
+                                    Cleaning</p>
+                                <br>
+                                <p class="lead mb-1"><img src="./img/icons/vacuum-interior.svg" class="iconImg" alt="">
+                                    Vacuum</p>
+                                <br>
+                                <p class="lead mb-1"><img src="./img/icons/interior-detailing.svg" class="iconImg"
+                                        alt="">
+                                    Interior Panel Detailer</p>
+                                <br>
+                                <p class="lead mb-1"><img src="./img/icons/hand-towel.svg" class="iconImg" alt="">
+                                    Plastic
+                                    Restorer</p>
+                                <br>
+                                <p class="lead mb-1"><img src="./img/icons/exterior-detailing.svg" class="iconImg"
+                                        alt="">
+                                    Wax</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+        </section>
 
 
-
-
+        <section id="section2">
             <div class="row d-flex p-2 justify-content-center mt-5">
                 <img src="./img/Basic.svg" alt="" class="iconPremium">
                 <h1 class="display-3 mt-3 text-center">Basic Wash</h1>
@@ -128,182 +136,185 @@
                         </div>
                     </div>
                 </div>
+        </section>
 
+        <section id="section3">
+        <div class="row d-flex p-2 justify-content-center mt-5">
+            <img src="./img/Detailing.svg" alt="" class="iconPremium">
+            <h1 class="display-3 mt-3 text-center">Detailing Services</h1>
+            <p class="display-6 text-center">We offer a variety of services that ranges from washing your seats to
+                polish your lights. Check the full list below.
+            </p>
+            <div class="accordion" id="accordionTree">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTree" aria-expanded="true" aria-controls="collapseTree">
+                            <p class="h4">Options</p>
+                        </button>
+                    </h2>
+                    <div id="collapseTree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionTwo">
+                        <div class="accordion-body">
+                            <dl class="row">
+                                <dt class="lead col-9">* These services are charged individually</dt>
+                                <dd class="col-3"></dd>
+                                <dt><br></dt>
+                                <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/seat-cleaning.svg" alt="">
+                                    Seats Wash</dt>
+                                <dd class="lead col-sm-9">Usually removes most of the stains and give
+                                    a brand new look inside the car</dd>
+                                <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/mat-cleaning.svg" alt="">
+                                    Carpet Wash</dt>
+                                <dd class="lead col-sm-9">Carpet wash will bring all the dust that are imbedded
+                                    to
+                                    the floor
+                                </dd>
+                                <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/car-shampoo.svg" alt="">
+                                    Ceiling Wash</dt>
+                                <dd class="lead col-sm-9">Removes stains from the Ceiling</dd>
+                                <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/seat-hydration.svg"
+                                        alt=""> Leather Hydration</dt>
+                                <dd class="lead col-sm-9">Perfect to keep your leather resistant to time</dd>
+                                <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/oxy.svg" alt="">
+                                    Oxy Sanitation</dt>
+                                <dd class="lead col-sm-9">Removes any odor in the car (ex: cigarets) and kill
+                                    viruses
+                                    like
+                                    Covid-19</dd>
+                                <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/headlight-restoration.svg"
+                                        alt=""> Headlight Polishing
+                                </dt>
+                                <dd class="lead col-sm-9">Ofter underestimated, improve quality of the view for
+                                    the
+                                    driver at
+                                    night and keep the look of the car</dd>
+                            </dl>
 
-                <div class="row d-flex p-2 justify-content-center mt-5">
-                    <img src="./img/Detailing.svg" alt="" class="iconPremium">
-                    <h1 class="display-3 mt-3 text-center">Detailing Services</h1>
-                    <p class="display-6 text-center">We offer a variety of services that ranges from washing your seats to polish your lights. Check the full list below.
-                        </p>
-                    <div class="accordion" id="accordionTree">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTree" aria-expanded="true" aria-controls="collapseTree">
-                                    <p class="h4">Options</p>
-                                </button>
-                            </h2>
-                            <div id="collapseTree" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionTwo">
-                                <div class="accordion-body">
-                                    <dl class="row">
-                                        <dt class="lead col-9">* These services are charged individually</dt>
-                                        <dd class="col-3"></dd>
-                                        <dt><br></dt>
-                                        <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/seat-cleaning.svg"
-                                                alt=""> Seats Wash</dt>
-                                        <dd class="lead col-sm-9">Usually removes most of the stains and give
-                                            a brand new look inside the car</dd>
-                                        <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/mat-cleaning.svg"
-                                                alt=""> Carpet Wash</dt>
-                                        <dd class="lead col-sm-9">Carpet wash will bring all the dust that are imbedded
-                                            to
-                                            the floor
-                                        </dd>
-                                        <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/car-shampoo.svg"
-                                                alt=""> Ceiling Wash</dt>
-                                        <dd class="lead col-sm-9">Removes stains from the Ceiling</dd>
-                                        <dt class="h5 col-sm-3"><img class="iconImg"
-                                                src="./img/icons/seat-hydration.svg" alt=""> Leather Hydration</dt>
-                                        <dd class="lead col-sm-9">Perfect to keep your leather resistant to time</dd>
-                                        <dt class="h5 col-sm-3"><img class="iconImg" src="./img/icons/oxy.svg" alt="">
-                                            Oxy Sanitation</dt>
-                                        <dd class="lead col-sm-9">Removes any odor in the car (ex: cigarets) and kill
-                                            viruses
-                                            like
-                                            Covid-19</dd>
-                                        <dt class="h5 col-sm-3"><img class="iconImg"
-                                                src="./img/icons/headlight-restoration.svg" alt=""> Headlight Polishing
-                                        </dt>
-                                        <dd class="lead col-sm-9">Ofter underestimated, improve quality of the view for
-                                            the
-                                            driver at
-                                            night and keep the look of the car</dd>
-                                    </dl>
-
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
+        </div>
+    
+</section>
 
 
 
-                    <div class="row mt-5 mb-5 text-center">
-                        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto ">
-                            <h1 class="display-3">Pricing</h1>
-                            <p class="display-6 ">We offer the best service with the best price!</p>
+    <div class="row mt-5 mb-5 text-center">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto ">
+            <h1 class="display-3">Pricing</h1>
+            <p class="display-6 ">We offer the best service with the best price!</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header basicCard">
+                            <h4 class="h2 my-0 fw-normal">Basic</h4>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <div class="card mb-4 shadow-sm">
-                                        <div class="card-header basicCard">
-                                            <h4 class="h2 my-0 fw-normal">Basic</h4>
-                                        </div>
-                                        <div class="card-body">
-                                            <h1 class="card-title pricing-card-title"><small class="h4 text-muted ">
-                                                    Hatch /
-                                                    Sedan</small><br>$35 </h1>
-                                            <h1 class="card-title pricing-card-title"><small
-                                                    class="h4 text-muted ">Trucks /
-                                                    SUV's</small><br>$50 </h1>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm">
-                                    <div class="card mb-4 shadow-sm">
-                                        <div class="card-header premiumCard">
-                                            <h4 class="h2 my-0 fw-normal"><i class="fad fa-stars"></i> Premium</h4>
-                                        </div>
-                                        <div class="card-body">
-                                            <h1 class="card-title pricing-card-title"><small class="h4 text-muted ">
-                                                    Hatch /
-                                                    Sedan</small><br>$50 </h1>
-                                            <h1 class="card-title pricing-card-title"><small
-                                                    class="h4 text-muted ">Trucks /
-                                                    SUV's</small><br>$75 </h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm">
-                                    <div class="card mb-4 shadow-sm">
-                                        <div class="card-header detailCard">
-                                            <p class="detailText h2 my-0 fw-normal">Detailing Services</p>
-                                        </div>
-                                        <div class="card-body">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="h4" scope="col">Service</th>
-                                                        <th class="h4" scope="col">Description</th>
-                                                        <th class="h4" scope="col">Price</th>
-
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th scope="row">Seats Wash</th>
-                                                        <td>Wash and remove stains from back and front seats</td>
-                                                        <td>Sedan $90<br>Trucks $110</td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Carpet Wash</th>
-                                                        <td>Wash and dry all carpets</td>
-                                                        <td>Sedan $30<br>Trucks $40</td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Ceiling Wash</th>
-                                                        <td>Remove stains from the ceiling</td>
-                                                        <td>Sedan $30<br>Trucks $40</td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Leather Hydration</th>
-                                                        <td>Brings shine and gives a layer of protection to your leather
-                                                        </td>
-                                                        <td>Sedan $50<br>Trucks $70</td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Oxy Sanitation<span
-                                                                class="badge bg-warning text-dark">New</span></th>
-                                                        <td>Removes bad odor, bacteria's and viruses from your car</td>
-                                                        <td>Any size $40</td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">Headlight Polishing</th>
-                                                        <td>Brings back the new-looking from your lights</td>
-                                                        <td>Sedan $40<br>Trucks $60</td>
-
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><small class="h4 text-muted ">
+                                    Hatch /
+                                    Sedan</small><br>$35 </h1>
+                            <h1 class="card-title pricing-card-title"><small class="h4 text-muted ">Trucks /
+                                    SUV's</small><br>$50 </h1>
                         </div>
                     </div>
                 </div>
-            
+                <div class="col-sm">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header premiumCard">
+                            <h4 class="h2 my-0 fw-normal"><i class="fad fa-stars"></i> Premium</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title"><small class="h4 text-muted ">
+                                    Hatch /
+                                    Sedan</small><br>$50 </h1>
+                            <h1 class="card-title pricing-card-title"><small class="h4 text-muted ">Trucks /
+                                    SUV's</small><br>$75 </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <!--* INSTAGRAM INTEGRATION  -->
 
-                <!-- <div class="album py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header detailCard">
+                            <p class="detailText h2 my-0 fw-normal">Detailing Services</p>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="h4" scope="col">Service</th>
+                                        <th class="h4" scope="col">Description</th>
+                                        <th class="h4" scope="col">Price</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Seats Wash</th>
+                                        <td>Wash and remove stains from back and front seats</td>
+                                        <td>Sedan $90<br>Trucks $110</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Carpet Wash</th>
+                                        <td>Wash and dry all carpets</td>
+                                        <td>Sedan $30<br>Trucks $40</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Ceiling Wash</th>
+                                        <td>Remove stains from the ceiling</td>
+                                        <td>Sedan $30<br>Trucks $40</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Leather Hydration</th>
+                                        <td>Brings shine and gives a layer of protection to your leather
+                                        </td>
+                                        <td>Sedan $50<br>Trucks $70</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Oxy Sanitation<span
+                                                class="badge bg-warning text-dark">New</span></th>
+                                        <td>Removes bad odor, bacteria's and viruses from your car</td>
+                                        <td>Any size $40</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Headlight Polishing</th>
+                                        <td>Brings back the new-looking from your lights</td>
+                                        <td>Sedan $40<br>Trucks $60</td>
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!--* INSTAGRAM INTEGRATION  -->
+
+
+
+    <!-- <div class="album py-5">
                     <div class="container">
 
                         <div class="display-4 mb-5 row text-center">
@@ -405,14 +416,14 @@
             </div> -->
 
 
-            <!-- Optional JavaScript; choose one of the two! -->
-            <!-- Option 1: Bootstrap Bundle with Popper -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-                crossorigin="anonymous"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 
-            <!-- Option 2: Separate Popper and Bootstrap JS -->
-            <!--
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->

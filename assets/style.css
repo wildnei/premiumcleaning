@@ -78,6 +78,30 @@
     color: white
 }
 
+
+/* instagram */
+
+.instagram_profile {
+  /* CSS styles here */
+}
+
+.instagram_profile_image {
+  /* CSS styles here */
+}
+
+.instagram_username {
+  /* CSS styles here */
+}
+
+.instagram_biography {
+  /* CSS styles here */
+}
+
+.instagram_gallery {
+  /* CSS styles here */
+}
+
+
 @media only screen and (max-width: 768px) {
 .display-6 {
     font-size: 1.2rem;
